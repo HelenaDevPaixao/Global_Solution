@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #efecec;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-emphasis: justify;
+  background-color: #1d8100;
+  height: 150px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#imagem {
+  background-color: rgb(190, 243, 243);
+  height: 300px;
+  width: 100%;
+  background-image: url(../Imagens/macas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #e8e7e7;
+    background-color: #1d8100;
+    height: 100px;
+    width: 100%;
+  
+}
+
+
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: aliceblue;
+  height: 110px;
+  width: 10%;
+  font-size: 19px;
+}
+
+.texto_imagem {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+ 
+  
+}
+
+.img {
+  display: flex;
+  height: 80%;
+  width: 550px;
+  background-image: url(../Imagens/cultivo-de-hortalicas.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  margin: 0 10px 0 10px;
+}
+
+#img_index{
+  background-image: url(../Imagens/blogpost96.png);
+
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0 10px 0 10px;
+  height: 100%;
+  width: 550px;
+  font-size: 21px;
+}
